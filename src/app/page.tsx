@@ -4,6 +4,9 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
       <div className="max-w-3xl text-center">
+        <div>
+          <img src="/logo.png" alt="Logo" className="mx-auto mb-6 w-24 h-24" />
+        </div>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
           Gestion des Visites Pastorales
         </h1>
